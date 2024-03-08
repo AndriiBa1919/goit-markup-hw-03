@@ -44,9 +44,6 @@ img {
 .header .container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    /* todo */
 }
 
 .navigation {
@@ -64,6 +61,7 @@ img {
     line-height: 1.17;
     font-weight: 700;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 
@@ -76,9 +74,7 @@ img {
     line-height: 1.17;
     font-weight: 700;
     letter-spacing: 0.03em;
-    margin-right: 76px;
-    /* todo */
-}
+    }
 
 .navigation-list {
     display: flex;
@@ -92,6 +88,7 @@ img {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .list:hover,
@@ -131,13 +128,10 @@ img {
 
 /* *============== TITLE ================ */
 
-.title-wrap {
-    padding: 188px 301px;
-}
-
 .title {
     text-align: center;
     background-color: #2E2F42;
+    padding: 188px 301px;
 }
 
 .title-basic {
@@ -147,8 +141,8 @@ img {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -167,7 +161,7 @@ img {
     height: 56px;
     border: none;
     cursor: pointer;
-
+    margin-top: 46px;
 }
 
 .btn:hover,
@@ -177,7 +171,7 @@ img {
 
 /* *=============== STRATEGY ===================== */
 
-.futures-wrap {
+.futures-class {
     padding: 120px 0;
 }
 
@@ -227,12 +221,9 @@ img {
 
 /* *================ TEAM =================== */
 
-.team-wrap {
-    padding: 120px 0;
-}
-
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -284,7 +275,7 @@ img {
 
 /* *============== PORTFOLIO ================= */
 
-.products-wrap {
+.products {
     padding: 120px 0;
 }
 
@@ -337,12 +328,9 @@ img {
 
 /* *=========== FOOTER ============== */
 
-.foot-wrap {
-    padding: 100px 864px 100px 0;
-}
-
 .foot {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo-foot {
